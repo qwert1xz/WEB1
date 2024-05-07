@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        /* Add your CSS code here */
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form action="/calculate" method="post">
+        <input type="text" name="equation" value="{{ equation }}" />
+        <input type="submit" value="Calculate" />
+    </form>
+    <p>Result: {{ result }}</p>
+</body>
+</html>
